@@ -117,10 +117,11 @@ input[type="checkbox"] {
 }
 
 .download-btn {
-  position: absolute;
+  /* position: absolute;
   z-index: 10;
   left: 1%;
-  top: 15%;
+  top: 15%; */
+  /* margin-right: 5rem; */
   padding: .5rem;
   border: 2px solid #ccc;
   border: 0;
@@ -143,5 +144,7 @@ input[type="checkbox"] {
   .download-btn {
     top: 23%;
     left: 24%;
+    margin-right: 5.5rem;
+    margin-top: .1rem;
   }
 }
